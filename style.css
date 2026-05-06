@@ -32,6 +32,16 @@ header nav ul li{
     margin: 0 1rem;
 }
 
+header nav ul li a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #D80032;
+}
+
+header nav ul li a ::hover{
+    margin: 1rem;
+    color: #2B2D42;
+}
 main{
     display: flex;
     flex-direction: column;
@@ -46,6 +56,25 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.bloque {
+    margin: 20px 0 0 35px;
+}
+
+.bloque h1 {
+    margin: 0 0 18px 0;
+    font-size: 46px;
+    font-weight: 300;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.linea {
+    width: 325px;
+    height: 4px;
+    background: #D80032;
+    margin-bottom: 80px;
 }
 
 #presentacion ul{
@@ -112,6 +141,7 @@ main{
     align-items: center;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 50px;
 }
 
 .carta{
@@ -157,18 +187,65 @@ main{
     height: 15rem;
 }
 
+.tarjeta_skill img{
+    width: 80px;
+}
+
 #contactanos{
     width: 100%;
+    height: 80rem;
     display: flex;
     flex-direction: column; 
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#contactanos h2{
+    font-size: 3rem;
+}
+#contactanos p{
+    margin-bottom: 100px;
 }
 
 #formulario{
     display: flex;
+    width: 70%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
+
+#formulario label{
+    width: 70%;
+}
+
+#formulario input{
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid #D80032;
+    background: transparent;
+    outline: none;
+    font-size: 18px;
+    color: #9aa0a6;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+}
+
+.mensaje{
+    height: 200px;
+}
+
+.boton{
+    width: 330px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #D80032;
+    color: #9aa0a6;
+    font-size: 14px;
+    padding: 10px 5px;
+    text-align: left;
+    cursor: pointer;
+    text-align: center;
+}
+

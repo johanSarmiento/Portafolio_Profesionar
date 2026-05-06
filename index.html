@@ -13,9 +13,9 @@
                 <h4>JS</h4>
             </div>
             <ul>
-                <li><a href="">About me</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Contact us</a></li>
+                <li><a href="#SobreMi">About me</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#contactanos">Contact us</a></li>
             </ul>
         </nav>
 
@@ -33,13 +33,19 @@
     </header>
     <main >
         <section id="minimalista">
-            <h2>Minimalist</h2>
+            <div class="bloque">
+                <h1>Minimalist</h1>
+                <div class="linea"></div>
+            </div>
 
             <p>In my code and in my design, minimalism means eliminating the unnecessary so that every line, every space, and every decision solves problems with maximum clarity and elegance.</p>
         </section>
 
         <section id="SobreMi">
-            <h2>About me</h2>
+            <div class="bloque">
+                <h1>About me</h1>
+                <div class="linea"></div>
+            </div>
 
             <div class="contenedor_texto">
                 <p>I am a passionate and dedicated software developer with a strong background in computer science. I have a deep love for coding and problem-solving, and I thrive on creating innovative solutions to complex challenges. With experience in various programming languages and frameworks, I am constantly seeking opportunities to learn and grow in the ever-evolving field of technology. My goal is to contribute my skills and creativity to projects that make a positive impact on users and the world around us.
@@ -49,7 +55,7 @@
                 </p>
             </div>
         </section>
-            <button class="boton_about">More</button>
+            <button class="boton">More</button>
     </main>
 
     <section id="servicios">
@@ -74,74 +80,79 @@
     </section>
 
     <section id="habilidades">
-        <h2>Skills</h2>
-        <div class="contenedor_habilidades">
-            <h3>Using now</h3>
+        <div class="bloque">
+            <h1>SKills</h1>
+            <div class="linea"></div>
+        </div>
 
-            <div class="contenedor_skills">
+        <div>
+            <h3>Using now</h3>
+              <div class="contenedor_skills">
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/html.png" alt="">
                     <p>HTML</p>
                 </div>
             
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/css-3.png" alt="">
                     <p>CSS</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/js.png" alt="">
                     <p>JavaScript</p>
                 </div>
                 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/icons8-react-40.png" alt="">
                     <p>React</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/git.png" alt="">
                     <p>Git and GitHub</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
+                    <img src="iconos/figma.png" alt="">
                     <p>Figma</p>
                 </div>
             </div>
             
         </div>
-        <div>
-            <h3>learning</h3>
-              <div class="contenedor_skills">
+
+         <div class="contenedor_habilidades">
+            <h3>Learning</h3>
+
+            <div class="contenedor_skills">
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>HTML</p>
+                    <img src="iconos/icons8-vue-js-48.png" alt="">
+                    <p>Vue</p>
                 </div>
             
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>CSS</p>
+                    <img src="iconos/icons8-angular-48.png" alt="">
+                    <p>Angular</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>JavaScript</p>
+                    <img src="iconos/icons8-python-48.png" alt="">
+                    <p>Python</p>
                 </div>
                 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>React</p>
+                    <img src="iconos/icons8-tailwind-css-48.png" alt="">
+                    <p>Tailwind CSS</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>Git and GitHub</p>
+                    <img src="iconos/icons8-nodejs-48.png" alt="">
+                    <p>Node.js</p>
                 </div>
 
                 <div class="tarjeta_skill">
-                    <img src="" alt="">
-                    <p>Figma</p>
+                    <img src="iconos/icons8-bootstrap-48.png" alt="">
+                    <p>Bosstrap</p>
                 </div>
             </div>
             
@@ -149,7 +160,10 @@
     </section>
 
     <section id="contactanos">
-        <h2>Contact Us</h2>
+        <div class="bloque">
+            <h1>Contact Us</h1>
+            <div class="linea"></div>
+        </div>
 
         <p>Let's build something great together. Reach out and we'll turn ideas into clean, minimal code.</p>
         
@@ -164,9 +178,9 @@
             <input type="tel" id="number">
 
             <label for="message">Enter your Message</label>
-            <input type="text" id="message">
+            <input type="text" id="message" class="mensaje">
 
-            <input type="button" value="Submit" id="submit">
+            <button class="boton" type="submit">Send</button>
         </form>
     </section>
 </body>
