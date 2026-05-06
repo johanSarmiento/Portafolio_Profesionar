@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Macondo&display=swap');
+
+body{
+    background-color: #EDF2F4;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50rem;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header nav ul{
+    display: flex;  
+    width: 60%;
+    justify-content: end;
+    align-items: center;
+    height: 3rem;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentacion{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#presentacion ul{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#presentacion h1{
+    font-size: 3rem;
+}
+
+#presentacion p{
+    font-size: 1.5rem;
+}
+
+#presentacion ul li{ 
+    list-style: none;
+}
+
+#minimalista{
+    width:  90%;
+    padding: 20px;
+}
+
+#minimalista h2{
+    font-size: 2rem;
+}
+
+#SobreMi{
+    display: flex;
+    width: 100%;
+    height: 40rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#SobreMi h2{
+    font-size: 3rem;
+}
+
+.contenedor_texto{
+    width: 80%;
+}
+
+.contenedor_texto p{
+    margin-bottom: 3rem;
+}
+
+.boton_about{
+    width: 6rem;
+    height: 2rem;
+}
+
+#servicios{
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carta{
+    width: 30rem;
+    height: 15rem;
+    margin: 30px;
+    background-color: #8d99ae36;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+#habilidades{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contenedor_habilidades{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_skills{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta_skill{
+    width: 10rem;
+    height: 15rem;
+}
+
+#contactanos{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
